@@ -4,10 +4,11 @@
 # https://docs.microsoft.com/azure/devops/pipelines/languages/dotnet-core
 
 trigger:
-- {{ branch }}
+- master
 
 pool:
   {{ pool }}
+
 
 variables:
   buildConfiguration: 'Release'
